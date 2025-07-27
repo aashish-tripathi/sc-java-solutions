@@ -1,0 +1,10 @@
+Benchmark                                     (keyRange)   Mode  Cnt      Score      Error   Units
+CachingFunctionBenchmark.testHalfMissHalfHit         100  thrpt   25  28355.197 ±  479.032  ops/ms
+CachingFunctionBenchmark.testHalfMissHalfHit        1000  thrpt   25  24285.193 ±  235.441  ops/ms
+CachingFunctionBenchmark.testHalfMissHalfHit       10000  thrpt   25      3.499 ±    0.347  ops/ms
+CachingFunctionBenchmark.testRandomKeys              100  thrpt   25  32745.612 ±  234.691  ops/ms
+CachingFunctionBenchmark.testRandomKeys             1000  thrpt   25  27675.808 ±  507.244  ops/ms
+CachingFunctionBenchmark.testRandomKeys            10000  thrpt   25      1.471 ±    0.192  ops/ms
+CachingFunctionBenchmark.testRepeatedSameKey         100  thrpt   25  45209.471 ± 3415.241  ops/ms
+CachingFunctionBenchmark.testRepeatedSameKey        1000  thrpt   25  45208.138 ± 3129.419  ops/ms
+CachingFunctionBenchmark.testRepeatedSameKey       10000  thrpt   25  47158.966 ± 1022.972  ops/ms

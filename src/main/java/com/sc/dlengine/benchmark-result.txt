@@ -1,0 +1,4 @@
+Benchmark                                    Mode  Cnt      Score      Error   Units
+DeadlineSchedulerBenchmark.benchmarkCancel  thrpt   25  50643.264 ±  838.287  ops/ms
+DeadlineSchedulerBenchmark.benchmarkPoll    thrpt   25  51789.044 ± 1924.136  ops/ms
+DeadlineSchedulerBenchmark.benchmarkSize    thrpt   25  54401.700 ±  425.972  ops/ms
